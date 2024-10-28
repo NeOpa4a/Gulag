@@ -116,3 +116,29 @@ li:hover {
     transform: translateY(0);
   }
 }
+
+@media (max-width: 400px) {
+  body {
+    padding: 20px 0;
+  }
+
+  .container {
+    padding: 20px;
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+
+  li {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+
+  .nickname,
+  .name {
+    font-size: 14px;
+  }
+}
