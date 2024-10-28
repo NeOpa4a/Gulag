@@ -12,12 +12,13 @@ body {
   animation: gradientAnimation 8s ease infinite;
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
+  align-items: start; /* изменено с center на start */
+  min-height: 100vh; /* для включения скролла */
+  padding-top: 20px; /* отступ сверху для визуального смещения */
+  padding-bottom: 30px;
   color: #e0e0e0;
 }
 
-/* Контейнер с анимацией появления */
 .container {
   background-color: rgba(40, 40, 65, 0.95);
   padding: 40px 50px;
